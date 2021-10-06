@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VARIANT: 16-bullseye-slim
+    volumes:
+      - ..:/workspace:cached
+      - yarn-cache:/root/.yarn
+    command: sleep infinity
+
+volumes:
+  yarn-cache:
+    name: yarn-cache
