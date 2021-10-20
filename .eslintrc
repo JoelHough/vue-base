@@ -2,5 +2,8 @@
   "extends": [
     "@antfu",
     "plugin:vue/vue3-strongly-recommended"
-  ]
+  ],
+  "env": {
+    "node": true
+  }
 }

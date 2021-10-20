@@ -12,5 +12,8 @@ FROM node:${VARIANT}
 
 # [Optional] Uncomment if you want to install more global node modules
 # RUN su node -c "npm install -g <your-package-list-here>"
-
-RUN yarn set version berry
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends \
+    ca-certificates \
+    git \
+  && rm -rf /var/lib/apt/lists/*

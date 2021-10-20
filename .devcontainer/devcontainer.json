@@ -6,7 +6,15 @@
 	"workspaceFolder": "/workspace",
 
 	// Set *default* container specific settings.json values on container create.
-	"settings": {},
+	"settings": {
+		"search.exclude": {
+			"**/.yarn": true,
+			"**/.pnp.*": true
+		},
+		"eslint.nodePath": ".yarn/sdks",
+		"typescript.tsdk": ".yarn/sdks/typescript/lib",
+		"typescript.enablePromptUseWorkspaceTsdk": true
+	},
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
@@ -28,7 +36,10 @@
 		"voorjaar.windicss-intellisense",
 		"oouo-diogo-perdigao.docthis",
 		"bradlc.vscode-tailwindcss",
-		"heybourn.headwind"
+		"heybourn.headwind",
+		"ms-azuretools.vscode-azurestaticwebapps",
+		"ms-azuretools.vscode-azurefunctions",
+		"arcanis.vscode-zipfs"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
