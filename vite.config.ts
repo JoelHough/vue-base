@@ -61,14 +61,13 @@ export default defineConfig({
       resolvers: [
         // https://github.com/antfu/unplugin-icons
         IconsResolver({
-          componentPrefix: '',
-          // enabledCollections: ['carbon']
+          componentPrefix: 'icon'
         }),
       ],
     }),
 
     // https://github.com/antfu/unplugin-icons
-    Icons(),
+    Icons({ compiler: 'vue3'}),
 
     // https://github.com/antfu/vite-plugin-md
     // Don't need this? Try vitesse-lite: https://github.com/antfu/vitesse-lite
@@ -126,6 +125,9 @@ export default defineConfig({
   ],
 
   server: {
+    watch: {
+      usePolling: true,
+    },
     fs: {
       strict: true,
     },

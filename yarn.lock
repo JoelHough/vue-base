@@ -1412,12 +1412,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify-json/carbon@npm:^1.0.3":
-  version: 1.0.7
-  resolution: "@iconify-json/carbon@npm:1.0.7"
-  dependencies:
-    "@iconify/types": ^1.0.10
-  checksum: 09e9f5739f98eb156413f6c893550d33341d0b5aa67d87df741556a856ffd489da0940134dbbd685ec003807b4c219450da859b8605b7d7212183c756c0645f0
+"@iconify/json@npm:^1.1.417":
+  version: 1.1.417
+  resolution: "@iconify/json@npm:1.1.417"
+  checksum: 57d00906068957b99e123802b4eedbd4b872247e00b02c5df62b9ee8eef45ba197e440a4026afa91a7c9308d9f7a54a413824d4cf58ae0bf37ea441cd5fe9ecc
   languageName: node
   linkType: hard
 
@@ -1675,6 +1673,40 @@ __metadata:
     ejs: ^2.6.1
     magic-string: ^0.25.0
   checksum: da721792036a0e1253911f9b5280e6cb236024d7d2255bde3b6e87587c0ea8f46404224c8c032a27ee11ab3244eda752587fb37ec78c2e64eb53e10557373102
+  languageName: node
+  linkType: hard
+
+"@tailwindcss/aspect-ratio@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "@tailwindcss/aspect-ratio@npm:0.3.0"
+  peerDependencies:
+    tailwindcss: ">=2.0.0 || >=3.0.0-alpha.1"
+  checksum: f863da71ba3920ebcb96057ca9d446b0b40addbcd0b6c0631fc33625eaeb10c8aeb92f333bb8bae2db2fd025d9895e06582fce2d1fb2e35420a27bb0a6f994f7
+  languageName: node
+  linkType: hard
+
+"@tailwindcss/forms@npm:^0.3.4":
+  version: 0.3.4
+  resolution: "@tailwindcss/forms@npm:0.3.4"
+  dependencies:
+    mini-svg-data-uri: ^1.2.3
+  peerDependencies:
+    tailwindcss: ">=2.0.0"
+  checksum: 4b2b2b3361169bf5adf1a575c7dc8bb7946192c0edf4829e5b1de342a4e1b8138a01441a8ecef70e0777180b0797506e3f44854f09a32b9d7083658271543783
+  languageName: node
+  linkType: hard
+
+"@tailwindcss/typography@npm:^0.4.1":
+  version: 0.4.1
+  resolution: "@tailwindcss/typography@npm:0.4.1"
+  dependencies:
+    lodash.castarray: ^4.4.0
+    lodash.isplainobject: ^4.0.6
+    lodash.merge: ^4.6.2
+    lodash.uniq: ^4.5.0
+  peerDependencies:
+    tailwindcss: ">=2.0.0"
+  checksum: d234509964f59389d00ccc0529b033a5aa670a93149a48520cd2088d102b894cc746146052ea844a926bbea4b16904f5f6b2874399511bf78d55631bdb88ac68
   languageName: node
   linkType: hard
 
@@ -2102,12 +2134,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/head@npm:^0.6.0":
-  version: 0.6.0
-  resolution: "@vueuse/head@npm:0.6.0"
+"@vueuse/head@npm:^0.5.1":
+  version: 0.5.1
+  resolution: "@vueuse/head@npm:0.5.1"
   peerDependencies:
     vue: ">=3"
-  checksum: 0bdf0df9ee322cf9967e144b1ec4244540faa6f29a31d96d420921f3cecf714d9a17ce603a47d3238a672174e0b92fd788dd51bbc4697d1a1975f6246948dc2a
+  checksum: a7a1a8a3aa3f9979e877f27bb5f012181d8c0d47f25d1633a4891baea5069752127f42dbefedf88a54e10aebf2bee3ecb0ebfbd67265333dc85b39daa147bd2f
   languageName: node
   linkType: hard
 
@@ -2125,32 +2157,6 @@ __metadata:
     vue:
       optional: true
   checksum: c16cd747690ba486c68752fefa9f77cbbae1f6f61536e7b1a88a1a2e2a55d6e62303c5764a332304ac409d7004d576021b574e6d954ba4a1cef5ee2f6016816b
-  languageName: node
-  linkType: hard
-
-"@windicss/config@npm:1.4.12":
-  version: 1.4.12
-  resolution: "@windicss/config@npm:1.4.12"
-  dependencies:
-    debug: ^4.3.2
-    jiti: ^1.12.9
-    windicss: ^3.1.9
-  checksum: 684fb8a68817ab6b915e5c6483f9fa60f2c34e39cf5e887ca5c92afda257322f6b958a32c1a8986ef83fc9a992b33ffdf1141d87a07d48175da89e0bd03c72c3
-  languageName: node
-  linkType: hard
-
-"@windicss/plugin-utils@npm:1.4.12":
-  version: 1.4.12
-  resolution: "@windicss/plugin-utils@npm:1.4.12"
-  dependencies:
-    "@antfu/utils": ^0.3.0
-    "@windicss/config": 1.4.12
-    debug: ^4.3.2
-    fast-glob: ^3.2.7
-    magic-string: ^0.25.7
-    micromatch: ^4.0.4
-    windicss: ^3.1.9
-  checksum: 64640c875f08d317319181d8512afca40f9eddbaec26bfbed8dde733ab8ce0cfdc116e76fce1be75cf05058c50d48b7fd152b2c9f13fa8dddcc48d1ab036205d
   languageName: node
   linkType: hard
 
@@ -5393,15 +5399,6 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"jiti@npm:^1.12.9":
-  version: 1.12.9
-  resolution: "jiti@npm:1.12.9"
-  bin:
-    jiti: bin/jiti.js
-  checksum: 6446c73d0ea6733eeef6994a6018e3ce265c677683931730058a1f08980a762eb4b003f4b8cb24d8a569548b440d54e55113237f4a69ebaea3f46fdce6bd5ebe
-  languageName: node
-  linkType: hard
-
 "js-stringify@npm:^1.0.2":
   version: 1.0.2
   resolution: "js-stringify@npm:1.0.2"
@@ -5720,6 +5717,13 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"lodash.castarray@npm:^4.4.0":
+  version: 4.4.0
+  resolution: "lodash.castarray@npm:4.4.0"
+  checksum: fca8c7047e0ae2738b0b2503fb00157ae0ff6d8a1b716f87ed715b22560e09de438c75b65e01a7e44ceb41c5b31dce2eb576e46db04beb9c699c498e03cbd00f
+  languageName: node
+  linkType: hard
+
 "lodash.clonedeep@npm:^4.5.0":
   version: 4.5.0
   resolution: "lodash.clonedeep@npm:4.5.0"
@@ -5731,6 +5735,13 @@ fsevents@~2.3.2:
   version: 4.0.8
   resolution: "lodash.debounce@npm:4.0.8"
   checksum: a3f527d22c548f43ae31c861ada88b2637eb48ac6aa3eb56e82d44917971b8aa96fbb37aa60efea674dc4ee8c42074f90f7b1f772e9db375435f6c83a19b3bc6
+  languageName: node
+  linkType: hard
+
+"lodash.isplainobject@npm:^4.0.6":
+  version: 4.0.6
+  resolution: "lodash.isplainobject@npm:4.0.6"
+  checksum: 29c6351f281e0d9a1d58f1a4c8f4400924b4c79f18dfc4613624d7d54784df07efaff97c1ff2659f3e085ecf4fff493300adc4837553104cef2634110b0d5337
   languageName: node
   linkType: hard
 
@@ -5759,6 +5770,13 @@ fsevents@~2.3.2:
   version: 4.4.2
   resolution: "lodash.truncate@npm:4.4.2"
   checksum: b463d8a382cfb5f0e71c504dcb6f807a7bd379ff1ea216669aa42c52fc28c54e404bfbd96791aa09e6df0de2c1d7b8f1b7f4b1a61f324d38fe98bc535aeee4f5
+  languageName: node
+  linkType: hard
+
+"lodash.uniq@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "lodash.uniq@npm:4.5.0"
+  checksum: a4779b57a8d0f3c441af13d9afe7ecff22dd1b8ce1129849f71d9bbc8e8ee4e46dfb4b7c28f7ad3d67481edd6e51126e4e2a6ee276e25906d10f7140187c392d
   languageName: node
   linkType: hard
 
@@ -5957,6 +5975,15 @@ fsevents@~2.3.2:
   version: 2.1.0
   resolution: "mimic-fn@npm:2.1.0"
   checksum: d2421a3444848ce7f84bd49115ddacff29c15745db73f54041edc906c14b131a38d05298dae3081667627a59b2eb1ca4b436ff2e1b80f69679522410418b478a
+  languageName: node
+  linkType: hard
+
+"mini-svg-data-uri@npm:^1.2.3":
+  version: 1.4.3
+  resolution: "mini-svg-data-uri@npm:1.4.3"
+  bin:
+    mini-svg-data-uri: cli.js
+  checksum: bd1789c34907a36ae9157897b7c7f6ad700e71c8cb6d725bb2810ce6211abcaa3717333ca17408f6f8b2a44055e571cd5b78d478688e1864513cb7f8e023ae3f
   languageName: node
   linkType: hard
 
@@ -7364,8 +7391,11 @@ resolve@^2.0.0-next.3:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@antfu/eslint-config": ^0.9.0
-    "@iconify-json/carbon": ^1.0.3
+    "@iconify/json": ^1.1.417
     "@intlify/vite-plugin-vue-i18n": ^2.4.0
+    "@tailwindcss/aspect-ratio": ^0.3.0
+    "@tailwindcss/forms": ^0.3.4
+    "@tailwindcss/typography": ^0.4.1
     "@types/markdown-it-link-attributes": ^3.0.1
     "@types/node": ^16.11.1
     "@types/nprogress": ^0.2.0
@@ -7373,7 +7403,7 @@ resolve@^2.0.0-next.3:
     "@vue/compiler-sfc": ^3.2.19
     "@vue/server-renderer": ^3.2.19
     "@vueuse/core": ^6.5.3
-    "@vueuse/head": ^0.6.0
+    "@vueuse/head": ^0.5.1
     autoprefixer: ^10.3.7
     critters: ^0.0.10
     cross-env: ^7.0.3
@@ -7397,7 +7427,6 @@ resolve@^2.0.0-next.3:
     vite-plugin-pages: ^0.18.1
     vite-plugin-pwa: ^0.11.3
     vite-plugin-vue-layouts: ^0.5.0
-    vite-plugin-windicss: ^1.4.9
     vite-ssg: ^0.15.4
     vue: ^3.2.19
     vue-demi: ^0.11.4
@@ -8641,20 +8670,6 @@ typescript@^4.4.3:
   languageName: node
   linkType: hard
 
-"vite-plugin-windicss@npm:^1.4.9":
-  version: 1.4.12
-  resolution: "vite-plugin-windicss@npm:1.4.12"
-  dependencies:
-    "@windicss/plugin-utils": 1.4.12
-    chalk: ^4.1.2
-    debug: ^4.3.2
-    windicss: ^3.1.9
-  peerDependencies:
-    vite: ^2.0.1
-  checksum: cc654e0a873849273e4aa7c4f4b1e0b4243820ec001639e77a58ad2b8e59d7422e9191a3b09237c9d84e83cfbe687c1b5d319822560c642d0e46aa1f6800471c
-  languageName: node
-  linkType: hard
-
 "vite-ssg@npm:^0.15.4":
   version: 0.15.4
   resolution: "vite-ssg@npm:0.15.4"
@@ -9136,15 +9151,6 @@ typescript@^4.4.3:
   dependencies:
     string-width: ^1.0.2 || 2 || 3 || 4
   checksum: d5fc37cd561f9daee3c80e03b92ed3e84d80dde3365a8767263d03dacfc8fa06b065ffe1df00d8c2a09f731482fcacae745abfbb478d4af36d0a891fad4834d3
-  languageName: node
-  linkType: hard
-
-"windicss@npm:^3.1.9":
-  version: 3.1.9
-  resolution: "windicss@npm:3.1.9"
-  bin:
-    windicss: cli/index.js
-  checksum: 7c9c1ac23b5125315b215ed92c67fb4cb2db0a4322d86ac15c11e9cea2313ff75698833a9d7bff2ee17a95f3bee5ca7cd1b19f6660dbbff8cc64815545f6b30a
   languageName: node
   linkType: hard
 
