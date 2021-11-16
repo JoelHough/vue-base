@@ -33,7 +33,7 @@ jobs:
           restore-keys: |
             yarn-cache-folder-
       - name: Install packages
-        run: yarn install --immutable --immutable-cache
+        run: yarn install --immutable
       - name: Yarn Build
         run: yarn run build
       - name: Build API and Deploy
