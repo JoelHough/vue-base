@@ -8,7 +8,6 @@ node_modules
 .idea/
 *.log
 components.d.ts
-auto-imports.d.ts
 *.code-workspace
 .vscode
 
