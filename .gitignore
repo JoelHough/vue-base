@@ -8,7 +8,15 @@ node_modules
 .idea/
 *.log
 components.d.ts
-auto-imports.d.ts
 *.code-workspace
-.pnp.cjs
-.yarn
+.vscode
+
+# Yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
