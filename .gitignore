@@ -10,6 +10,5 @@ node_modules
 components.d.ts
 auto-imports.d.ts
 *.code-workspace
-.vscode
 .pnp.cjs
 .yarn
